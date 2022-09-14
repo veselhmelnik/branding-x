@@ -1,0 +1,17 @@
+@font-face {
+  font-family: urbanist;
+  src: url(assets/fonts/Urbanist-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: urbanist;
+  color: #181A3F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

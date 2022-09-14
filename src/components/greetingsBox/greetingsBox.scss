@@ -1,0 +1,95 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7%;
+    .left {
+        margin-right: 10px;
+        padding-right: 30px;
+    }
+}
+.box {
+    width: 20rem;
+    height:  20rem;
+}
+.line {
+    display: flex;
+
+    .box-1 {
+        background-color: #233B99;
+        position: relative;
+        overflow: hidden;
+
+        .circle-1 {
+            background-color: white;
+            border-radius: 100%;
+            position: absolute;
+            top: -50%;
+            opacity: 72%;
+        }
+
+        .circle-2 {
+            border-radius: 100%;
+            position: absolute;
+            top: 50%;
+            background-color: white;
+            opacity: 12%;
+        }
+    }
+
+    .box-2 {
+        background-color: #FF7549;
+
+        .rectangle {
+            opacity: 72%;
+            width: 0;
+            height: 0;
+            border-bottom: 20rem solid white;
+            border-right: 20rem solid transparent;
+
+        }
+    }
+    .box-3 {
+        width: 0;
+            height: 0;
+            border-bottom: 20rem solid #FF7549;
+            border-left: 20rem solid transparent;
+    }
+    .box-4 {
+        background-color: #394ea3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .circle-3 {
+            opacity: 72%;
+            width: 12rem;
+            height: 12rem;
+            background-color: white;
+            border-radius: 100%;
+        }
+    }
+    .box-5 {
+        background-color: #233B99;
+        .rectangle {
+            opacity: 72%;
+            width: 0;
+            height: 0;
+            border-bottom: 20rem solid white;
+            border-right: 20rem solid transparent;
+
+        }
+    }
+    .box-6 {
+        background-color: #FF7549;
+        overflow: hidden;
+        .circle {
+            width: 20rem*2;
+            height: 20rem*2;
+            border-radius: 100%;
+            background-color: white;
+            opacity: 72%;
+            
+        }
+    }
+}
+
