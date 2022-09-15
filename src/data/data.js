@@ -1,0 +1,2 @@
+export const serviceData = ['Branding', 'Web Design', 'UX/UI Design', 'Graphic Design', 'Motion Graphics', 'Marketing'];
+export const loremText = 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore. Exepteur sintolmelt occaecat cupidatat non proid.';

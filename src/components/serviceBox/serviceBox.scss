@@ -1,0 +1,21 @@
+.service-main {
+    justify-content: center;
+    margin: 0 6%;
+    .top {
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        .button-outline {
+            padding: 1% 4.5%;
+            margin-left: 20%;
+        }
+    }
+    .service-list {
+        display: flex;
+        flex-wrap: wrap;
+        .service-item {
+            width: 33%;
+        }
+    }
+}

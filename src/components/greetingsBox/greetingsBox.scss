@@ -2,10 +2,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 7%;
+    
+    border-bottom: 1px solid #DAD9D6;
     .left {
-        margin-right: 10px;
-        padding-right: 30px;
+        margin-right: 5%;
+        margin-left: 7%;
+
+        .buttons {
+            .button-outline {
+                margin-left: 5%;
+            }
+        }
     }
 }
 .box {
@@ -92,4 +99,21 @@
         }
     }
 }
+
+@media screen and (max-width:1245px){
+    .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            .button-outline {
+                width: 90%;
+            }
+            .button-primary {
+                width: 90%;
+                margin-left: 5%;
+            }
+        }
+    }
+
 
