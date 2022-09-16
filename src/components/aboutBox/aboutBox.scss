@@ -1,0 +1,42 @@
+.about {
+    justify-content: center;
+    margin: 0 6%;
+    border-bottom: 1px solid #DAD9D6;
+    &-top {
+        margin-top: 200px;
+        display: flex;
+        
+        align-items: center; 
+        gap: 30%;
+    }
+    &-content {
+        justify-content: space-between;
+        display: flex;
+        .box {
+            width: 17rem;
+            height:  17rem;
+        }
+        .box-4 {
+            background-color: #FF7549;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .circle-3 {
+                opacity: 72%;
+                width: 11rem;
+                height: 11rem;
+                background-color: white;
+                border-radius: 100%;
+            }
+        }
+        &-text {
+            width: 33%;
+            font-size: 18px;
+            line-height: 30px;
+            margin-right: 55px;
+        }
+        img {
+            margin-left: -30px;
+        }
+    }
+}

@@ -1,12 +1,12 @@
 //--styles and assets--//
 import './serviceBox.scss'
 //--data--//
-import { serviceData, loremText } from 'data/data'
+import { serviceData, loremText, serviceImgs } from 'data/data'
 
 const ServiceBox = () => {
     return (
         <div className='service-main'>
-            <div className="top">
+            <div className="service-top">
                 <h3>We’re more than just a branding agency.</h3>
                 <button className='button-outline'>browse all services</button>
             </div>
@@ -19,14 +19,14 @@ const ServiceBox = () => {
 
 const ServiceItems = () => {
     return (
-        serviceData.map(item => {
+        serviceData.map((item, i) => {
             return (
-                <div className="service-item">
+                <div key={i} className="service-item">
                     <div className="service-img">
-
+                    {serviceImgs[i]}
                     </div>
-                    <h4>{item}</h4>
-                    <span>{loremText}</span>
+                    <h4><span style={{color: '#FF7549'}}>/</span>{item}</h4>
+                    <span className='service-text'>{loremText}</span>
                 </div>
             )
         })
