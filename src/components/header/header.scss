@@ -15,6 +15,11 @@
         border-top: 3px solid #181A3F;
         border-bottom: 3px solid #181A3F;
     }
+    .cart {
+        span {
+            letter-spacing: 2px;
+        }
+    }
 }
 @media screen and (max-device-width:480px){
     .header {

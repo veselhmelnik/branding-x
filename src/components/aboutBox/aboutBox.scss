@@ -1,42 +1,129 @@
 .about {
-    justify-content: center;
     margin: 0 6%;
-    border-bottom: 1px solid #DAD9D6;
+    
     &-top {
         margin-top: 200px;
+        margin-bottom: 70px;
         display: flex;
-        
-        align-items: center; 
         gap: 30%;
+        align-items: center;
     }
+
     &-content {
-        justify-content: space-between;
         display: flex;
+        justify-content: center;
+
         .box {
-            width: 17rem;
-            height:  17rem;
+            width: 210px;
+            height: 210px;
         }
+
         .box-4 {
             background-color: #FF7549;
             display: flex;
             align-items: center;
             justify-content: center;
+
             .circle-3 {
                 opacity: 72%;
-                width: 11rem;
-                height: 11rem;
+                width: 9rem;
+                height: 9rem;
                 background-color: white;
                 border-radius: 100%;
             }
         }
+
         &-text {
             width: 33%;
             font-size: 18px;
             line-height: 30px;
             margin-right: 55px;
         }
-        img {
-            margin-left: -30px;
+
+        &-right {
+            display: flex;
+            position: relative;
+
+            #img2 {
+                width: 435px;
+                height: 435px;
+                position: absolute;
+                right: 645px;
+                top: 210px;
+            }
+
+            #img1 {
+                width: 435px;
+                height: 435px;
+            }
+
+            .box-5 {
+                top: 435px;
+                position: absolute;
+                border-top: 210px solid white;
+                border-left: 210px solid #233B99;
+            }
+
+            .box-6 {
+                top: 435px;
+                left: 210px;
+                position: absolute;
+                border-top: 210px solid #233B99;
+                border-left: 210px solid #233B99;
+            }
+
+            .box-7 {
+                top: 435px;
+                width: 105px;
+                height: 210px;
+                left: 420px;
+                position: absolute;
+                background: #CDDCEB;
+                border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+
+            }
+
+            .box-8 {
+                top: 645px;
+                width: 210px;
+                overflow: hidden;
+                height: 210px;
+                background-color: #FF7549;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+
+                .circle-4 {
+                    position: absolute;
+                    top: 105px;
+                    opacity: 72%;
+                    width: 210px;
+                    height: 210px;
+                    background-color: white;
+                    border-radius: 100%;
+                }
+            }
+
         }
     }
+
 }
+
+.bottom-text {
+    margin-top: 260px;
+    float: right;
+    width: 33%;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+@media screen and (min-width:1615px){
+    .bottom-text {
+        margin-right: 150px;
+        width: 30%;
+    }
+    .about-content {
+        margin-right: 100px;
+    }
+    }
