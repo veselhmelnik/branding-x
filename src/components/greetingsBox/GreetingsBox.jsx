@@ -18,36 +18,28 @@ const GreetingsBox = () => {
                 <div className="vector-img">
                     <div className="line">
                         <div className="box box-1">
-                            <div className="box circle-1">
-
-                            </div>
-                            <div className="box circle-2">
-
-                            </div>
+                            <div className="box circle-1"/>
+                            <div className="box circle-2"/>
                         </div>
                         <div className="box box-2">
-                            <div className="box rectangle"></div>
+                            <div className="box rectangle"/>
                         </div>
                     </div>
                     <div className="line">
-                        <div className="box box-3">
-                        </div>
+                        <div className="box box-3"/>
                         <div className="box box-4">
-                            <div className="circle-3">
-
-                            </div>
+                            <div className="circle-3"/>
                         </div>
                     </div>
                     <div className="line">
                         <div className="box box-5">
-                            <div className="box rectangle"></div>
+                            <div className="box rectangle"/>
                         </div>
                         <div className="box box-6">
-                            <div className="box circle"></div>
+                            <div className="box circle"/>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     )

@@ -10,10 +10,34 @@
     display: flex;
     justify-content: space-between;
     .menu {
+        position: relative;
         margin-left: 16px;
         width: 45px;
         border-top: 3px solid #181A3F;
         border-bottom: 3px solid #181A3F;
+        cursor: pointer;
+        .dropDown {
+            z-index: 100;
+            top: 15px;
+            padding: 10px 10px 5px 10px;
+            position: absolute;
+            list-style: none;
+            background-color: white;
+            border: 1px solid gray;
+            border-radius: 10%;
+            transition: 0.5s;
+            a{
+                text-decoration: none;
+                color: black;
+                li {
+                    margin-bottom: 15px;
+                    display: flex;
+                    gap: 10px;
+                    letter-spacing: 1px;
+
+                }
+            }
+        }
     }
     .cart {
         span {

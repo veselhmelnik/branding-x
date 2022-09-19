@@ -1,30 +1,15 @@
-.service-main {
-    justify-content: center;
-    margin: 0 6%;
-    border-bottom: 1px solid #DAD9D6;
-    .service-top {
-        margin-top: 200px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center; 
-        gap: 20%;
-        button {
-            padding: 1% 4.8%;
-        }
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    .service-item {
+        width: 27%;
+        margin-bottom: 80px;
     }
-    .service-list {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin-top: 100px;
-        margin-bottom: 120px;
-        .service-item {
-            width: 27%;
-            margin-bottom: 80px;
-        }
-        .service-text {
-            font-size: 18px;
-            line-height: 30px;
-        }
+    .service-text {
+        font-size: 18px;
+        line-height: 30px;
     }
 }

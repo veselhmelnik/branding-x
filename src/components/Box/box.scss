@@ -1,0 +1,16 @@
+.main-box {
+    width: 88%;
+    margin: 230px auto;
+    
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        gap: 25%;
+    }
+}
+.divider {
+    border-bottom: 1px solid #DAD9D6;
+    width: 88%;
+    margin: 0 auto;
+}

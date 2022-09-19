@@ -1,5 +1,6 @@
 //--components--//
 import AboutBox from "components/aboutBox/AboutBox";
+import Box from "components/Box/Box";
 import Header from "components/header/Header";
 import GreetingsBox from "components/greetingsBox/GreetingsBox";
 import ServiceBox from "components/serviceBox/ServiceBox";
@@ -12,7 +13,7 @@ const App = () => {
       <Header/>
       <GreetingsBox/>
       <ServiceBox/>
-      <AboutBox/>
+      {/* <AboutBox/> */}
     </div>
   );
 }
